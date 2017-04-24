@@ -1,4 +1,11 @@
 *.DS_Store*
 # Vagrant 
-/.vagrant/
-/.vagrant/*
+.vagrant/
+.vagrant/*
+laravel/node_modules
+laravel/storage/*.key
+laravel/Homestead.json
+laravel/Homestead.yaml
+laravel/npm-debug.log
+laravel/vendor/*
+!laravel/vendor/autoload.php
